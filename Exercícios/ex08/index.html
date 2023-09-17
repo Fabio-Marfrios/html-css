@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="img/imagemtp.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="img/imagemtm.png" type="image/png">
+        <img src="img/imagemtg.png" alt="Imagens flexível">
+    </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reprozur áudios em HTML5</p>
+    <audio src="midia/Elvis Presley - Suspicious Minds (Official Audio)(MP3_160K).mp3" controls></audio>
+    <h1>Inserindo vídeo no site</h1>
+    <video src="video/animacao.mp4" width="500" poster="img/maxresdefault.jpg" controls></video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=jE1GRPEvfYZ1YcCw"
+     title="YouTube video player" frameborder="0" 
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     allowfullscreen></iframe>
+ 
+</body>
+</html>

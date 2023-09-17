@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300&family=Noto+Sans+JP:wght@200&display=swap');
+@font-face {
+font-family: 'idroid';
+src: url('./fontes/idroid.otf') format('opentype');
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;    
+}
+
+
+
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(132, 225, 173);
+}
+
+
+header{            
+  display: block;
+  background-image: linear-gradient(to top, #1a5a37, #3e905d, #5bbc7c);
+  color: white;
+  margin: 0%;
+  padding-top: 5px;
+  height: 100%;
+ 
+}
+header > h1{
+  font-family: 'Bebas Neue'; 
+  font-weight: 700;          
+  text-align: center;
+  padding-top: 5px;
+  text-shadow: 1px 1px 4px rgba(24, 23, 23, 0.918);
+
+}
+
+
+
+header p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.884);
+}
+nav > h1{
+  display: none;          
+}
+
+nav ul{
+  background-color: rgb(26, 90, 55); 
+  box-shadow: -20px -2px 3px rgba(0, 0, 0, 0.400);
+  padding: 10px;
+  margin: 0px;
+}
+
+nav li{
+  display: inline;
+  margin: 5px;                
+}  
+
+nav a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.836);
+}
+nav a:hover{
+   background-color: rgb(92, 190, 125) ;
+   border: 1px solid green;
+   padding: 8px;
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+main{
+  background-color: white;
+  min-width: 300px;  
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 2em;
+
+}
+.titulo-01{   
+    background-image: none;
+    font-size: 2em;
+    font-family: 'idroid', sans-serif;   
+    text-align: center;         
+    color: rgb(16, 76, 43);
+    margin: auto;   
+}
+main h1{
+  background-image: linear-gradient(to right, #72b891, #90ddaf, #d4edde, #ffffff);
+  font-family: 'idroid', sans-serif;            
+  color: rgb(16, 76, 43);
+  margin: auto;   
+  border-radius: 10px 0px 0px 10px;         
+}
+main  p{
+    text-indent: 2em;  
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.445);
+    color: rgb(26, 90, 55);
+}
+img{            
+ width: 95%;
+ margin: 0% 2.5%;
+ 
+
+}
+.pequeno{
+   display: block; 
+   width: 200px;             
+   margin:auto; 
+}      
+
+#video{
+  display: block;
+  background-color: rgb(26, 90, 55);
+  width: 100%;
+  height: auto;
+  margin: 0%;
+}
+iframe{  
+  display: block;           
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  padding: 20px;
+ 
+  
+}
+     
+aside{
+    background-color: #C5EBD6;    
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.400);
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 20px;
+ 
+}
+#curiosidades h3{
+background-color: rgb(47, 168, 102);
+border-radius: 10px 10px 0px 0px;
+color: white;
+}
+
+aside p{
+    text-align: justify;
+    text-indent: 1em;
+    width: 90%;
+    margin: auto;
+
+}
+aside ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+
+}
+
+
+footer{
+  background-color: rgb(26, 92, 56);
+  color: white;
+  text-align: center;
+}
+
